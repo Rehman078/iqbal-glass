@@ -1,0 +1,172 @@
+body{
+   background-color: #000C66;
+}
+
+.order-table {
+   width: 90%;
+   margin: 0 auto; /* Center align */
+   display: none; /* Initially hide the table */
+ }
+
+@font-face {
+   font-family: "myheadingfont";
+   src: url(fonts/Jameel-Noori-Nastaleeq-Regular/Noori-Nastaleeq.ttf);
+ }
+.input-group-text {
+    width: 85px;
+ }  
+ .hide-focus:focus{
+    box-shadow: none;
+    border: none;
+    border: 1px solid black;
+ }
+ .img{
+   height: 117px;
+   width: 120px;
+ }
+ 
+.heading0-font{
+   font-family: "myheadingfont";
+   font-size: 45px;
+   font-weight: bold;
+}
+.bg-color{
+   background-color: #ADD8E6;
+}
+.body-color{
+   background-color: #ADD8E6;
+}
+.custom-width{
+   width: 20%;
+}
+.custom-width-1{
+   width: 37%;
+}
+.input-font{
+   font-size: 20px;
+   font-family: "myheadingfont";
+   color: #000C66;
+   background-color: #447EAE;
+   font-weight: bold;
+}
+.bg-color-blue{
+   background-color: #447EAE;
+}
+.txt-color{
+   color: #000C66;
+}
+.heading-small-1{
+   font-family: "myheadingfont";
+   font-size: 40px;
+}
+.heading-small-2{
+   font-family: "myheadingfont";
+   font-size: 25px;
+   font-weight: bold;
+}
+.heading-read{
+   font-family: "myheadingfont";
+   font-size: 18px;
+}
+.heading-read-1{
+   font-family: "myheadingfont";
+   font-size: 22px;
+   font-weight: bold;
+   
+}
+.heading-small-3{
+   font-family: "myheadingfont";
+   font-size: 30px;
+   font-weight: bold;
+
+}
+.heading-small-4{
+   font-family: #ADD8E6;
+   font-size: 14px;
+   font-weight: bold;
+   font-family: "myheadingfont";
+}
+.input-table-font{
+   font-size: 20px;
+   font-family: "myheadingfont";
+   color: #000C66;
+}
+.custom-margin{
+   margin-top: 50px;
+background-color: #447EAE;
+font-family: "myheadingfont";
+}
+.bg-input{
+border: none;
+background-color: #ADD8E6;
+width: 120px;
+font-size: 18px;
+font-family: "myheadingfont";
+font-weight: bold;
+}
+.nav-bg{
+background-color: #ADD8E6;
+}
+.color{
+   background-color: #447EAE;
+   color: white;
+   font-family: "myheadingfont";
+   font-size: 16px;
+}
+.width-textarea{
+height: 45px;
+}
+.color:hover{
+   background-color: #000C66;
+   color: white;
+}
+.input-font-date{
+   font-family: "myheadingfont";
+font-weight: bold;
+font-size: 18px;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+textarea {
+   resize: none;
+ }
+ .table-row-font-1{
+   font-family: "myheadingfont";
+   font-size: 17px;
+   font-weight: bold;
+   font-weight: bold;
+    }
+ .table-row-font{
+font-weight: bold;
+font-family: "myheadingfont";
+font-size: 17px;
+ }
+
+ @media (max-width: 575.98px) {
+   .container{
+     padding: 0px;
+   }
+   .custom-width{
+      width: 31%;
+   }
+   .heading-small-3{
+      font-family: "myheadingfont";
+      font-size: 18px;
+   }
+   .custom-margin{
+      margin-top: 0px;
+   }
+.height{
+   height: 100vh;
+}
+  }
